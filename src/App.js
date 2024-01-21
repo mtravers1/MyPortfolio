@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
-
+import Resume from './resume';
 function App() {
   const [mydada, setMydada]=useState([
 {id:1, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
-{id:2, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
-{id:3, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
+{id:2, name:"IGotchabailbonds Website", tools:"NextJs, Redux, Postman, Javascript, Html, CSS, Tailwind", description:"Created a Jail Bonds website using Next JS, TypeScript, and Tailwind. Set up a JSON server, connect login/registration to the endpoint using Axios. Utilized Redux for language conversion.", link:"https://www.i-gotchabailbonds.com/", git:"", startdate:3.2022, enddate:2.2024},
+{id:3, name:"Quik-Influence Marketplace Website", tools:"NextJs, TypeScript, Tailwind", description:"Assisted in the development of an online retail marketplace using ReactJS and TypeScript. Added CSS changes, login/register pages, and deployed through AWS Amplify.", link:"https://www.quikinfluence.com/", git:"", startdate:2.2023, enddate:2.2023},
+{id:4, name:"Quik-Influence Marketplace Website", tools:"NextJs, TypeScript, Tailwind", description:"Assisted in the development of an online retail marketplace using ReactJS and TypeScript. Added CSS changes, login/register pages, and deployed through AWS Amplify.", link:"https://www.quikinfluence.com/", git:"", startdate:2.2023, enddate:2.2023},
+
 ])
 
   const [dada, setDada]=useState([])
@@ -50,12 +52,12 @@ function App() {
       <div className='background'>
     <h1>Michael Travers Portfolio</h1>
     <div style={{width:"100%"}}>
-    <div style={{display:"flex", flexDirection:"row", width:"30%"}}>
+    <div style={{display:"flex", flexDirection:"row", flexWrap:"wrap"}}>
       
     
     {
       mydada.map((d)=>(
-        <div style={{margin:"20px"}} key={d.id}>
+        <div style={{margin:"20px", width:"30%"}} key={d.id}>
           <h3>Name: {d.name}</h3>
          
 
@@ -138,6 +140,8 @@ function App() {
       <button>Enter</button>
     </form>
     </div>
+    <h1>Resume</h1>
+    <Resume/>
     </div>
   );
 }
