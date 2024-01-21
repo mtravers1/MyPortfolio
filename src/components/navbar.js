@@ -2,11 +2,11 @@ import React from 'react'
 
 const Navbar=()=>{
     return(
-        <div>
-            <ul>
-                <a href="">Home</a>
-                <a href="">Resume</a>
-                <a href="">Contact</a>
+        <div >
+            <ul style={{display:"flex", justifyContent:"space-around"}}>
+                <a href="/">Home</a>
+                <a href="/">Resume</a>
+                <a href="/">Contact</a>
             </ul>
         </div>
     )

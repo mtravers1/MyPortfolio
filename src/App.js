@@ -3,8 +3,13 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 
-
 function App() {
+  const [mydada, setMydada]=useState([
+{id:1, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
+{id:2, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
+{id:3, name:"Fitness Website", tools:"Figma, MongoDB, Express and Node", description:"Designed a fitness application using Figma, MongoDB, Express, and Node. Developed front-end using HTML, Tailwind, and JavaScript. Implemented global state management using Context hook.", link:"", git:"https://github.com/mtravers1/MyPortfolio", startdate:2.2023, enddate:2.2023},
+])
+
   const [dada, setDada]=useState([])
   const [id, setId]=useState('')
   const [name, setName]=useState('')
@@ -16,58 +21,66 @@ function App() {
   const [enddate, setEnddate]=useState('')
   const url="http://localhost:8080"
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    fetch(url)
-    .then(res=>res.json())
-    .then(data=>setDada(data))
+  //   fetch(url)
+  //   .then(res=>res.json())
+  //   .then(data=>setDada(data))
 
-  })
+  // })
 
   const handleSubmit=(e)=>{
       e.preventDefault()
 
-      let body={id, name, tools, description, link, git, startdate, enddate}
+       let body={id, name, tools, description, link, git, startdate, enddate}
+       setMydada(body);
 
-      fetch(url,{
-        method:'POST',
-        headers:{'content-type':'application/json'},
-        body:JSON.stringify(body)
-      })
+      // fetch(url,{
+      //   method:'POST',
+      //   headers:{'content-type':'application/json'},
+      //   body:JSON.stringify(body)
+      // })
   }
 
 
 
   return (
-    <div className="App">
+    <div >
       <Navbar/>
+      <div className='background'>
     <h1>Michael Travers Portfolio</h1>
+    <div style={{width:"100%"}}>
+    <div style={{display:"flex", flexDirection:"row", width:"30%"}}>
+      
+    
     {
-      dada.map((d)=>(
-        <div key={d.id}>
-          <label>Name</label>
-          {d.name}
+      mydada.map((d)=>(
+        <div style={{margin:"20px"}} key={d.id}>
+          <h3>Name: {d.name}</h3>
+         
 
-          <label>tools</label>
-          {d.tools}
+          <h3>tools: {d.tools}</h3>
+          
 
-          <label>description</label>
-          {d.description}
+          <h3>description: {d.description}</h3>
+          
 
-          <label>Link</label>
-          {d.link}
+          <h3>Link: {d.link}</h3>
+          
 
-          <label>Git</label>
-            {d.git}
+          <h3>Git: {d.git}</h3>
+            
 
-          <label>Start Date</label>
-          {d.startdate}
+          <h3>Start Date: {d.startdate}</h3>
+          
 
-          <label>End Date</label>
-          {d.enddate}
+          <h3>End Date: {d.enddate}</h3>
+          
           </div>
       ))
     }
+    </div>
+    </div>
     <form onSubmit={handleSubmit}>
       <label>Id</label>
       <input
@@ -124,6 +137,7 @@ function App() {
       />
       <button>Enter</button>
     </form>
+    </div>
     </div>
   );
 }
