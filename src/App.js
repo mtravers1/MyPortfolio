@@ -91,10 +91,13 @@ function App() {
 
 
   return (
-    <div >
+    <div className='background'>
       <Navbar/>
+      <div>
+      {/* <Homes/> */}
       {/* <div className='background'> */}
       <Routes>
+        <Route path='/' element={<Homes/>}/>
         <Route path="/home" element={<Homes/>}/>
         {/* <Homes/> */}
           <Route path="/aboutme" element={<Aboutme/>}/>
@@ -219,6 +222,7 @@ function App() {
       <button>Enter</button>
     </form> */}
     {/* </div> */}
+    </div>
     <div>
     <h1>Resume</h1>
 

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { useState } from 'react'
+import quik from './images/logos/quikin.png'
 const Projects = ()=>{
       const [mydada, setMydada]=useState([
     {id:1, name:"Content Calendar", 
