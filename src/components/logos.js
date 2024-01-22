@@ -7,7 +7,7 @@ import react from '../images/logos/react.png'
 import node from '../images/logos/nodeexpress.png'
 const Logos = ()=>{
     return(
-        <div style={{display:"flex", flexWrap:"wrap"}}>
+        <div style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
             <img src={java}/>
             <img src={javascript}/>
             <img src={spring}/>

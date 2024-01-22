@@ -2,8 +2,8 @@ import React from "react";
 import grad from './images/grad.jpg'
 const Aboutme = ()=>{
     return(
-        <div style={{display:"flex"}}>
-            <div style={{display:"flex", flexDirection:"column", padding:"20px"}}>
+        <div style={{display:"flex", justifyContent:"center"}}>
+            <div style={{display:"flex", flexDirection:"column", padding:"20px", width:"70%"}}>
             <h1>About Me</h1>
 
             <p>Experienced full-stack developer with a strong foundation in front-end and back-end technologies. 

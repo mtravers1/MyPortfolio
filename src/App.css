@@ -7,6 +7,13 @@
 
 }
 
+.pics img{
+  width: 15%;
+}
+
+.projects div{
+  width: 25%
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,0 +1,10 @@
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900px;
+}
+
+.nav a:hover{
+    color:grey;
+
+}
