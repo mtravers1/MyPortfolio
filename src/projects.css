@@ -1,0 +1,21 @@
+.projects{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+@media(max-width:600px){
+    .projects{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .projects div{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+}

@@ -3,18 +3,20 @@
     color:black;
     font-weight: 900px;
 }
-
+.mobilenav{
+    display: none;
+}
 .nav a:hover{
     color:grey;
 
 }
 @media(max-width:600px){
-    /* .nav{
+    .nav{
         display: none;
     }
     .mobilenav{
-        display: flex;
-    } */
+        display: block;
+    }
 
 
 }

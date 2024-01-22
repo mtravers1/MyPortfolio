@@ -6,19 +6,27 @@
   background-image: url("./background.jpg");
 
 }
-
+.project{
+  margin:"20px";
+  width:"25%"
+}
 .pics img{
   width: 15%;
 }
 
 .projects div{
   width: 25%
+  
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+@media(max-width:600){
+  .project {
+    width: 100%;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

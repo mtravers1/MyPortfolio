@@ -117,11 +117,11 @@ enddate:2.2023},
     <h1 style={{textAlign:"center"}}>Projects</h1>
 
     <div style={{width:"100%"}}>
-    <div style={{display:"flex", flexDirection:"row", flexWrap:"wrap", justifyContent:"center"}} className='projects'>
+    <div className='projects'>
       
     {
       mydada.map((d)=>(
-        <div style={{margin:"20px", width:"25%"}} key={d.id}>
+        <div className='project' key={d.id}>
           <img src={d.image}/>
           <h3>Name: {d.name}</h3>
          

@@ -11,6 +11,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Projects from './projects';
 import Home from './home';
 import Homes from './home';
+import Certification from './certifications';
+import Education from './education';
 function App() {
 //   const [mydada, setMydada]=useState([
 //     {id:1, name:"Content Calendar", 
@@ -105,6 +107,12 @@ function App() {
           <Route path="/resume" element={<Resume/>}/>
             {/* <Resume/> */}
           <Route path="/projects" element={<Projects/>}/>
+
+          <Route path='/certifications' element={<Certification/>}/>
+
+          <Route path='/education' element={<Education/>}/>
+
+
 
       </Routes>
 
@@ -223,10 +231,7 @@ function App() {
     </form> */}
     {/* </div> */}
     </div>
-    <div>
-    <h1>Resume</h1>
 
-    </div>
     {/* <Resume/> */}
     </div>
   );

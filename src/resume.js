@@ -3,18 +3,22 @@ import React from "react";
 const Resume = ()=>{
     return(
         <div>
+
+            <h1>Resume</h1>
             
-        <p>    MICHAEL TRAVERS
+        <p>    
+            <p style={{marginBottom:"30px"}}><b>MICHAEL TRAVERS
        Contact: 202-288-0295 | Email: miketravers94@gmail.com
       Location: Washington, DC
       Github: https://github.com/mtravers1
-LinkedIn: linkedin.com/in/michael-travers1
-
+LinkedIn: linkedin.com/in/michael-travers1</b></p>
+<p style={{marginBottom:"30px"}}>
 PROFESSIONAL SUMMARY
 
 
 Experienced full-stack developer with a strong foundation in front-end and back-end technologies. Proficient in JavaScript, React, Node.js, Spring Boot, and various databases. Formally trained in knowledge and skills related to network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability. Seeking opportunities to contribute technical expertise to a dynamic team.
-
+</p>
+<p></p>
 TECHNICAL SKILLS
 
 

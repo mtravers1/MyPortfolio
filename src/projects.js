@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import quik from './images/logos/quikin.png'
+import './projects.css'
 const Projects = ()=>{
       const [mydada, setMydada]=useState([
     {id:1, name:"Content Calendar", 
@@ -62,7 +63,7 @@ enddate:2.2023},
       
     {
       mydada.map((d)=>(
-        <div style={{margin:"20px", width:"25%"}} key={d.id}>
+        <div className='card' style={{margin:"20px", width:"25%"}} key={d.id}>
           <img src={d.image}/>
           <h3>Name: {d.name}</h3>
          
