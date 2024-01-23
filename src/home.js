@@ -10,6 +10,8 @@ import Logos from './components/logos';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Projects from './projects';
 import Home from './home';
+import Education from './education';
+import Certification from './certifications';
 
 
 const Homes=()=>{
@@ -123,32 +125,32 @@ enddate:2.2023},
       mydada.map((d)=>(
         <div className='project' key={d.id}>
           <img src={d.image}/>
-          <h3>Name: {d.name}</h3>
+          <h3>{d.name}</h3>
          
 
-          <h3>tools: {d.tools}</h3>
+          <h3>{d.tools}</h3>
           
 
-          <h3>description: {d.description}</h3>
+          <h3>{d.description}</h3>
           
 
-          <h3>Link: </h3>
-          <a href={d.link} >{d.name}</a>
+          <a href={d.link} >{d.name}</a><br/><br/>
           
 
-          <h3>Git: </h3>
-          <a href={d.git}>Githut:{d.name}</a>
+
+          <a href={d.git}>Github</a>
             
 
-          <h3>Start Date: {d.startdate}</h3>
+          <h3>{d.startdate} - {d.enddate}</h3>
           
 
-          <h3>End Date: {d.enddate}</h3>
-          
+         
           </div>
       ))
     }
     </div>
+    <Education/>
+    <Certification/>
     </div>
     <form onSubmit={handleSubmit}>
       <label>Id</label>
@@ -208,8 +210,6 @@ enddate:2.2023},
     </form>
     </div>
     <div>
-    <h1>Resume</h1>
-
     </div>
     <Resume/>
     </div>

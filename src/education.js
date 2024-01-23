@@ -6,15 +6,15 @@ const Education = ()=>{
             <div>
             <h1>Education</h1>
             <h2>Computer Science Bachelor Degree</h2>
-            <h2>University of the District Of Columbia</h2>
-            <h2>August 2027-May 2022</h2>
-            <h2>GPA: 2.9</h2>
+            <p>University of the District Of Columbia</p>
+            <p>August 2027-May 2022</p>
+            <p>GPA: 2.9</p>
 
             </div>
             <div>
                 <h2>CCNA</h2>
-                <h2>District of Columbia Infrastructure Academy</h2>
-                <h2>November 2023-present</h2>
+                <p>District of Columbia Infrastructure Academy</p>
+                <p>November 2023-present</p>
 
             </div>
             

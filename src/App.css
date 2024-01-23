@@ -11,7 +11,7 @@
   width:"25%"
 }
 .pics img{
-  width: 15%;
+  width: 5%;
 }
 
 .projects div{
@@ -22,9 +22,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-@media(max-width:600){
+@media(max-width:600px){
   .project {
     width: 100%;
+  }
+  .pics div img{
+    width:10%;
   }
 }
 @media (prefers-reduced-motion: no-preference) {

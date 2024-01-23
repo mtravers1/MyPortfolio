@@ -2,5 +2,14 @@
     .about{
         flex-direction: column-reverse;
         justify-content: center;
+        align-items: center;
     }
+
+    .pic{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
 }

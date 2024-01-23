@@ -16,9 +16,11 @@ const Aboutme = ()=>{
         security fundamentals, and automation and programmability. Seeking opportunities to contribute technical expertise to a dynamic team.
 </p>
             </div>
-            
+            <div className="pic">
+            <img src={grad} width={200}/>
+
+            </div>
       
-<img src={grad} width={200}/>
 
 
         </div>
