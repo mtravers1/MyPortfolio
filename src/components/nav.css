@@ -8,9 +8,12 @@
     display: none;
 }
 .nav a:hover{
-    color:grey;
+    color:rgb(253, 253, 253);
 
 }
+/* .nav ul{
+    color:grey
+} */
 @media(max-width:600px){
     .nav{
         display: none;

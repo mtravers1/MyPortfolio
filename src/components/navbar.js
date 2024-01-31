@@ -13,7 +13,7 @@ const Navbar=()=>{
     return(
         <div>
         <div className='nav'>
-            <ul style={{display:"flex", justifyContent:"space-around"}}>
+            <ul style={{display:"flex", justifyContent:"space-around", backgroundColor:"grey"}}>
                 <a href="/home"><b>Home</b></a>
                 <a href="/resume"><b>Resume</b></a>
                 <a href="/projects"><b>Projects</b></a>
