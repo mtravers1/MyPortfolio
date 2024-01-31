@@ -59,9 +59,36 @@ enddate:2.2023},
   const url="http://localhost:8080"
     return(
                 <div style={{width:"100%"}}>
+                    <h1 style={{textAlign:"center"}}>Projects</h1>
     <div style={{display:"flex", flexDirection:"row", flexWrap:"wrap", justifyContent:"center"}} className='projects'>
-      
     {
+      mydada.map((d)=>(
+        <div className='project' style={{padding:"20px"}} key={d.id}>
+          <img src={d.image}/>
+          <h3>{d.name}</h3>
+         
+
+          <h3>{d.tools}</h3>
+          
+
+          <h3>{d.description}</h3>
+          
+
+          <a href={d.link} >{d.name}</a><br/><br/>
+          
+
+
+          <a href={d.git}>Github</a>
+            
+
+          <h3>{d.startdate} - {d.enddate}</h3>
+          
+
+         
+          </div>
+      ))
+    }
+    {/* {
       mydada.map((d)=>(
         <div className='card' style={{margin:"20px", width:"25%"}} key={d.id}>
           <img src={d.image}/>
@@ -89,7 +116,7 @@ enddate:2.2023},
           
           </div>
       ))
-    }
+    } */}
     </div>
     </div>
     )

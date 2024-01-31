@@ -116,12 +116,13 @@ enddate:2.2023},
 </p>
     </div> */}
     <Aboutme/>
-    <h1 style={{textAlign:"center"}}>Projects</h1>
+    <Projects/>
+    {/* <h1 style={{textAlign:"center"}}>Projects</h1>
 
     <div style={{width:"100%"}}>
-    <div className='projects'>
+    <div className='projects'> */}
       
-    {
+    {/* {
       mydada.map((d)=>(
         <div className='project' key={d.id}>
           <img src={d.image}/>
@@ -147,11 +148,11 @@ enddate:2.2023},
          
           </div>
       ))
-    }
-    </div>
+    } */}
+    {/* </div> */}
     <Education/>
     <Certification/>
-    </div>
+    {/* </div> */}
     <form onSubmit={handleSubmit}>
       <label>Id</label>
       <input
