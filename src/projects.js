@@ -4,6 +4,13 @@ import quik from './images/logos/quikin.png'
 import './projects.css'
 const Projects = ()=>{
       const [mydada, setMydada]=useState([
+        {id:1, name:"Clothing Store", 
+        tools:"Spring Boot, MongoDB, Jquery, Ajax", 
+        description:"Build a web application that would allow users to upload items to buy, sale and trade. This was built with Spring Boot using MVC architecture and connected to mongodb. Created the front end using Jquery and was able to use Ajax to get and post to API ", 
+        link:"https://main.dhe4vwkuynw28.amplifyapp.com/", 
+        git:"https://github.com/mtravers1/CLothingStore, https://github.com/mtravers1/ClothingStoreBackend-", 
+        startdate:1.2024, 
+        enddate:2.2024},
         {id:1, name:"Music Website", 
 tools:"Spring Boot, MongoDB, React", 
 description:"Develop a music website using React and bootstrap to create the front end of the application. Use the fetch method to get and post to an api. Use the MVC architecture with Spring Boot for back end and connected to Mongo database.", 
