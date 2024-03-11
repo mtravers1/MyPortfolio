@@ -10,11 +10,7 @@ const Aboutme = ()=>{
 
             <div style={{display:"flex", flexDirection:"column", padding:"20px", width:"70%"}}>
 
-            <p><b>Experienced full-stack developer with a strong foundation in front-end and back-end technologies. 
-        Proficient in JavaScript, React, Node.js, Spring Boot, and various databases. 
-        Formally trained in knowledge and skills related to network fundamentals, network access, IP connectivity, IP services, 
-        security fundamentals, and automation and programmability. Seeking opportunities to contribute technical expertise to a dynamic team.
-        </b></p>
+            <p><b>Experienced full-stack developer with a strong foundation in front-end and back-end technologies. Worked with multiple clients to create user friendly web applications. Proficient in JavaScript, React, Node.js, Spring Boot, and various databases. Seeking opportunities to contribute technical expertise to a dynamic team.</b></p>
             </div>
             <div className="pic">
             <img src={grad} width={200}/>
