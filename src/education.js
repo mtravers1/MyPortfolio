@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './components/footer'
 
 const Education = ()=>{
     return(
@@ -12,12 +13,13 @@ const Education = ()=>{
 
             </div>
             <div>
-                <h2>CCNA</h2>
+                <h2>DOES Network Engineering Training</h2>
                 <p>District of Columbia Infrastructure Academy</p>
-                <p>November 2023-present</p>
+                <p>November 2023-May 2024</p>
 
             </div>
-            
+            <Footer/>
+
         </div>
     )
 }

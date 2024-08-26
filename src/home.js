@@ -14,6 +14,7 @@ import Education from './education';
 import Certification from './certifications';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Footer from './components/footer'
 import { Link } from 'react-router-dom';
 
 
@@ -135,7 +136,7 @@ enddate:2.2023},
             </span>
             </div>
             <div className="pic">
-            <img id='image' src={grad} width={400}/>
+            <img id='me' src={grad} />
 
             </div>
       
@@ -143,24 +144,7 @@ enddate:2.2023},
 
         </div>
         </div>
-        <footer id='foot'>
-        <p>Phone: 202-288-0295</p>
-        <p>Email: miketravers94@gmail.com</p>
-        <p>Location: Washington DC</p>
-        <div id='social'>
-          <a href="https://github.com/mtravers1">
-          <FaGithub size={50}/>
-
-          </a>
-          <a href="https://www.linkedin.com/in/michael-travers1/">
-          <FaLinkedin size={50}/>
-
-          </a>
-          
-
-        </div>
-
-        </footer>
+        <Footer/>
     {/* <Aboutme/> */}
     {/* <Projects/> */}
     {/* <h1 style={{textAlign:"center"}}>Projects</h1>

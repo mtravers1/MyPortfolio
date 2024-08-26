@@ -7,8 +7,11 @@
   background-size: fill;
 
 }
+#me{
+  width:400px
+}
 #foot{
-  background-color: grey;
+  background-image: linear-gradient(black, black, black, grey);
 }
 #image{
   border-radius: 20px;
@@ -43,6 +46,9 @@
   }
   .pics div img{
     width:10%;
+  }
+  #me{
+    width:300px
   }
 }
 @media (prefers-reduced-motion: no-preference) {

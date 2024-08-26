@@ -1,6 +1,7 @@
 import React from "react";
 import grad from './images/grad.jpg'
 import './aboutme.css'
+import Footer from './components/footer'
 const Aboutme = ()=>{
     return(
         <div>
@@ -20,6 +21,8 @@ const Aboutme = ()=>{
 
 
         </div>
+        <Footer/>
+
         </div>
 
     )

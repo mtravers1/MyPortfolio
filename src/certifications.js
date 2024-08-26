@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from './components/footer'
 const Certification = ()=>{
     return(
         <div>
@@ -7,6 +7,7 @@ const Certification = ()=>{
             <p>Cisco Certified Support Technician(CCST) Certification </p>
             <p>Completed: April 2024</p>
             
+            <Footer/>
 
         </div>
     )

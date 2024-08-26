@@ -6,6 +6,7 @@ import igb from './i-gotcha-bailbonds.png'
 import asd from './asd.png'
 import hair from './hair.png'
 import qu from './quikinfluence.png'
+import Footer from './components/footer'
 import clothes from './clothingstore.png'
 const Projects = ()=>{
       const [mydada, setMydada]=useState([
@@ -94,7 +95,7 @@ enddate:12.2021},
       mydada.map((d)=>(
         <div className='project' style={{padding:"20px"}}>
           <img width={80} src={d.image}/>
-          <h3>{d.name}</h3>
+          <h3 id='name'>{d.name}</h3>
          
 
           <h3>{d.tools}</h3>
@@ -103,11 +104,11 @@ enddate:12.2021},
           <h3>{d.description}</h3>
           
 
-          <a href={d.link} >{d.name}</a><br/><br/>
+          <a style={{textDecoration:'none', color:'white'}} href={d.link} >{d.name}</a><br/><br/>
           
 
 
-          <a href={d.git}>Github</a>
+          <a style={{textDecoration:'none', color:'white'}} href={d.git}>Github</a>
             
 
           <h3>{d.startdate} - {d.enddate}</h3>
@@ -147,6 +148,8 @@ enddate:12.2021},
       ))
     } */}
     </div>
+    <Footer/>
+
     </div>
     )
 }
