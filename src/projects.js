@@ -19,7 +19,7 @@ const Projects = ()=>{
         startdate:1.2024, 
         enddate:'current'},
         
-        {id:1, name:"Hair website", 
+        {id:1, name:"Clients business Website for a hair website        ", 
 tools:"React, TypeScript, Node, Express, Oracle", 
 image:hair,
 description:"Develop a website that would allow customers to scheluel appointments using React and bootstrap to create the front end of the application. Use the fetch method to get and post to an api. Use the MVC architecture with Spring Boot for back end and connected to Mongo database.", 
@@ -94,7 +94,8 @@ enddate:12.2021},
     {
       mydada.map((d)=>(
         <div className='project' style={{padding:"20px"}}>
-          <img width={80} src={d.image}/>
+         
+          <a href={d.link} ><img width={80} src={d.image}/></a>
           <h3 id='name'>{d.name}</h3>
          
 
@@ -104,11 +105,11 @@ enddate:12.2021},
           <h3>{d.description}</h3>
           
 
-          <a style={{textDecoration:'none', color:'white'}} href={d.link} >{d.name}</a><br/><br/>
+          <a style={{textDecoration:'none', color:'white', fontSize:'large',fontWeight:'bold'}} href={d.link} >{d.name}</a><br/><br/>
           
 
 
-          <a style={{textDecoration:'none', color:'white'}} href={d.git}>Github</a>
+          <a style={{textDecoration:'none', color:'white', fontSize:'large',fontWeight:'bold'}} href={d.git}><i></i>Github</a>
             
 
           <h3>{d.startdate} - {d.enddate}</h3>

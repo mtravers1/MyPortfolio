@@ -4,6 +4,7 @@ import Footer from './components/footer'
 const Education = ()=>{
     return(
         <div>
+            <div style={{marginBottom:'400px'}}>
             <div>
             <h1>Education</h1>
             <h2>Computer Science Bachelor Degree</h2>
@@ -17,6 +18,7 @@ const Education = ()=>{
                 <p>District of Columbia Infrastructure Academy</p>
                 <p>November 2023-May 2024</p>
 
+            </div>
             </div>
             <Footer/>
 
