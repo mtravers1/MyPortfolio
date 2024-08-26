@@ -13,7 +13,11 @@ const Navbar=()=>{
     return(
         <div>
         <div className='nav'>
-            <ul style={{display:"flex", justifyContent:"space-around", backgroundColor:"grey"}}>
+            <div>
+            <h3 style={{color:"white"}}>Portfolio</h3>
+            </div>
+      
+            <ul id='menu' style={{display:"flex", justifyContent:"space-around"}}>
                 <a href="/home"><b>Home</b></a>
                 <a href="/resume"><b>Resume</b></a>
                 <a href="/projects"><b>Projects</b></a>
@@ -22,6 +26,7 @@ const Navbar=()=>{
                 <a href='/education'><b>Education</b></a>
                 {/* <a href="/">Contact</a> */}
             </ul>
+            
         </div>
         <div className='mobilenav'>
             <span style={{display:"flex", justifyContent:"space-between", marginBottom:"30px"}}>

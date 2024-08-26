@@ -1,14 +1,26 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
 .nav a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-weight: 900px;
     font-size: 20px;
+ 
 }
 .mobilenav{
     display: none;
 }
 .nav a:hover{
-    color:rgb(253, 253, 253);
+    color:grey;
+
+}
+#menu{
+    width:50%
 
 }
 /* .nav ul{

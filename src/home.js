@@ -12,6 +12,11 @@ import Projects from './projects';
 import Home from './home';
 import Education from './education';
 import Certification from './certifications';
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
+
 
 
 const Homes=()=>{
@@ -98,8 +103,8 @@ enddate:2.2023},
       <div className='background'>
         <div>
           <span className='pics' style={{justifyContent:"center"}}>
-          <h1 style={{textAlign:"center"}}>Michael Travers Portfolio</h1>
-          <Logos/>
+          {/* <h1 style={{textAlign:"center"}}>Michael Travers Portfolio</h1>
+          <Logos/> */}
 
           </span>
 
@@ -115,8 +120,48 @@ enddate:2.2023},
         security fundamentals, and automation and programmability. Seeking opportunities to contribute technical expertise to a dynamic team.
 </p>
     </div> */}
-    <Aboutme/>
-    <Projects/>
+          <div>
+                                    {/* <h1 style={{textAlign:"center"}}>About Me</h1> */}
+
+        <div style={{display:"flex", justifyContent:"center", paddingTop:"160px"}} className="about">
+
+            <div style={{display:"flex", flexDirection:"column", padding:"20px", width:"50%", fontSize:"25px"}}>
+
+            <p id='welcome'>Welcome to my portfolio.</p><p id='take'>Take a look at my experience in Full stack development and networking</p>
+            <span id='buttonspace'>
+            <button id='button'>Contact</button>
+
+            </span>
+            </div>
+            <div className="pic">
+            <img id='image' src={grad} width={400}/>
+
+            </div>
+      
+
+
+        </div>
+        </div>
+        <footer id='foot'>
+        <p>Phone: 202-288-0295</p>
+        <p>Email: miketravers94@gmail.com</p>
+        <p>Location: Washington DC</p>
+        <div id='social'>
+          <a href="https://github.com/mtravers1">
+          <FaGithub size={50}/>
+
+          </a>
+          <a href="https://www.linkedin.com/in/michael-travers1/">
+          <FaLinkedin size={50}/>
+
+          </a>
+          
+
+        </div>
+
+        </footer>
+    {/* <Aboutme/> */}
+    {/* <Projects/> */}
     {/* <h1 style={{textAlign:"center"}}>Projects</h1>
 
     <div style={{width:"100%"}}>
@@ -150,10 +195,10 @@ enddate:2.2023},
       ))
     } */}
     {/* </div> */}
-    <Education/>
-    <Certification/>
+    {/* <Education/>
+    <Certification/> */}
     {/* </div> */}
-    <form onSubmit={handleSubmit}>
+    {/* <form onSubmit={handleSubmit}>
       <label>Id</label>
       <input
       type='text'
@@ -208,11 +253,10 @@ enddate:2.2023},
       onChange={(e)=>setEnddate(e.target.value)}
       />
       <button>Enter</button>
-    </form>
+    </form> */}
     </div>
-    <div>
-    </div>
-    <Resume/>
+  
+    {/* <Resume/> */}
     </div>
   );
 }

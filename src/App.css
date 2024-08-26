@@ -4,8 +4,14 @@
 
 .background{
   background-image: url("./background.jpg");
-  background-size: cover;
+  background-size: fill;
 
+}
+#foot{
+  background-color: grey;
+}
+#image{
+  border-radius: 20px;
 }
 .project{
   margin:"20px";
@@ -22,6 +28,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#welcome{
+  font-size: 50px;
+  font-weight:bold
+}
+
+#take{
+  font-weight: bold;
 }
 @media(max-width:600px){
   .project {
