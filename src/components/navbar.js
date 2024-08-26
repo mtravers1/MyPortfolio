@@ -14,7 +14,7 @@ const Navbar=()=>{
         <div>
         <div className='nav'>
             <div>
-            <h3 style={{color:"white"}}>Portfolio</h3>
+            <h3 style={{color:"white"}}><a style={{color:'white', textDecoration:'none'}}>Portfolio</a></h3>
             </div>
       
             <ul id='menu' style={{display:"flex", justifyContent:"space-around"}}>

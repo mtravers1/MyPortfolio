@@ -129,7 +129,8 @@ enddate:2.2023},
 
             <p id='welcome'>Welcome to my portfolio.</p><p id='take'>Take a look at my experience in Full stack development and networking</p>
             <span id='buttonspace'>
-            <button id='button'>Contact</button>
+            <button  id='button'><a style={{color:'white', textDecoration:'none'}} href="/aboutme">Find out more</a>
+</button>
 
             </span>
             </div>

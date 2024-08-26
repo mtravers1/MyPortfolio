@@ -5,6 +5,10 @@
     justify-content:center;
 }
 
+img{
+    width:350px
+}
+
 @media(max-width:600px){
     .projects{
     display:flex; 
