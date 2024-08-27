@@ -5,6 +5,7 @@ import './projects.css'
 import igb from './i-gotcha-bailbonds.png'
 import asd from './asd.png'
 import hair from './hair.png'
+import port from './portfolio.png'
 import qu from './quikinfluence.png'
 import Footer from './components/footer'
 import clothes from './clothingstore.png'
@@ -57,6 +58,14 @@ image:hair,
 description:"Develop a website that would allow customers to scheluel appointments using React and bootstrap to create the front end of the application. Use the fetch method to get and post to an api. Use the MVC architecture with Spring Boot for back end and connected to Mongo database.", 
 link:"https://main.d338kcxg1rgr6b.amplifyapp.com/", 
 git:"https://github.com/mtravers1/HairStylist", 
+ 
+enddate:'in progress'},
+{id:4, name:"Portfolio Website", 
+tools:"ReactJs HTML, CSS, Javascript", 
+image:port,
+description:"Develop a website that would allow recruiters to view my resume, and expierence using ReactJs and CSS", 
+link:"https://main.d28fcq71k4ljtc.amplifyapp.com/", 
+git:"https://github.com/mtravers1/MyPortfolio", 
  
 enddate:'in progress'},
 {id:8, name:"Workout Mobile Application", 
