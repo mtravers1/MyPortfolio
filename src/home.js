@@ -124,9 +124,9 @@ enddate:2.2023},
           <div>
                                     {/* <h1 style={{textAlign:"center"}}>About Me</h1> */}
 
-        <div style={{display:"flex", justifyContent:"center", paddingTop:"160px"}} className="about">
+        <div class="about">
 
-            <div style={{display:"flex", flexDirection:"column", padding:"20px", width:"50%", fontSize:"25px"}}>
+            <div className='a'>
 
             <p id='welcome'>Welcome to my portfolio.</p><p id='take'>Take a look at my experience in Full stack development and networking</p>
             <span id='buttonspace'>

@@ -18,6 +18,10 @@ img{
         
     }
 
+    .project img{
+        width:80%
+    }
+
     .projects div{
         width: 100%;
     }

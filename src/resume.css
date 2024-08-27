@@ -13,3 +13,11 @@
 #r{
     background-color: thistle;
 }
+
+@media(max-width:600px){
+  #resume{
+    margin:10px;
+
+  }
+  }
+

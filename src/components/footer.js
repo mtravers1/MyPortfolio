@@ -10,11 +10,11 @@ const Footer = ()=>{
         <p>Location: Washington DC</p>
         <div id='social'>
           <a href="https://github.com/mtravers1">
-          <FaGithub size={50}/>
+          <FaGithub style={{color:'white'}}  size={50}/>
 
           </a>
           <a href="https://www.linkedin.com/in/michael-travers1/">
-          <FaLinkedin size={50}/>
+          <FaLinkedin style={{color:'white'}} size={50}/>
 
           </a>
           

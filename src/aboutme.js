@@ -9,7 +9,7 @@ const Aboutme = ()=>{
 
         <div style={{display:"flex", justifyContent:"center"}} className="about">
 
-            <div style={{display:"flex", flexDirection:"column", padding:"20px", width:"70%"}}>
+            <div id='bout'>
 
             <p><b>Experienced full-stack developer with a strong foundation in front-end and back-end technologies. Worked with multiple clients to create user friendly web applications. Proficient in JavaScript, React, Node.js, Spring Boot, and various databases. Seeking opportunities to contribute technical expertise to a dynamic team.</b></p>
             </div>
