@@ -5,10 +5,18 @@ import { FaBars } from "react-icons/fa";
 const Navbar=()=>{
 
     const [togglenav, setTogglenav]=useState(false)
+
+    const [toggle, setToggle]=useState(false)
     
     const menu = ()=>{
         setTogglenav(!togglenav)
     }
+
+    const resume = ()=>{
+        setToggle(!toggle)
+    }
+
+
 
     return(
         <div>
@@ -19,7 +27,20 @@ const Navbar=()=>{
       
             <ul id='menu' style={{display:"flex", justifyContent:"space-around"}}>
                 <a href="/home"><b>Home</b></a>
-                <a href="/resume"><b>Resume</b></a>
+                <div>
+
+                <button onClick={resume}><b>Resume</b></button>
+                {toggle && (
+                <div id='resu' style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+
+                        <a href="/resume"><b>Devloper </b></a>
+                        <a href="/itresume"><b>IT </b></a>
+                        
+                    </div>
+                )}
+                                </div>
+
+
                 <a href="/projects"><b>Projects</b></a>
                 <a href="/aboutme"><b>About Me</b></a>
                 <a href='/certifications'><b>Certification</b></a>

@@ -13,6 +13,7 @@ import Home from './home';
 import Homes from './home';
 import Certification from './certifications';
 import Education from './education';
+import Itresume from './itresume';
 function App() {
 //   const [mydada, setMydada]=useState([
 //     {id:1, name:"Content Calendar", 
@@ -111,6 +112,7 @@ function App() {
           <Route path='/certifications' element={<Certification/>}/>
 
           <Route path='/education' element={<Education/>}/>
+          <Route path='/itresume' element={<Itresume/>}/>
 
 
 

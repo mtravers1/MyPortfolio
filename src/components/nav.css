@@ -23,6 +23,25 @@
     width:50%
 
 }
+
+#resu{
+    background:black;
+}
+
+#resu a{
+    padding: 10px;
+    background:none;
+}
+
+#menu button{
+    text-decoration: none;
+    font-weight: 900px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
 /* .nav ul{
     color:grey
 } */
