@@ -63,7 +63,19 @@ const Navbar=()=>{
 
               <ul style={{display:"flex", flexDirection:"column", justifyContent:"space-around", }}>
                   <a style={{}} href="/home">Home</a>
-                  <a href="/resume">Resume</a>
+                  {/* <a href="/resume">Resume</a> */}
+                  <div>
+
+                <button id='bat' onClick={resume}><b>Resume</b></button>
+                {toggle && (
+                <div id='resu' style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+
+                        <a href="/resume"><b>Devloper </b></a>
+                        <a href="/itresume"><b>IT </b></a>
+                        
+                    </div>
+                )}
+                                </div>
                   <a href="/projects">Projects</a>
                   <a href="/aboutme">About Me</a>
                   <a href='/certifications'>Certification</a>

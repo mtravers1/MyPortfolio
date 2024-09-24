@@ -46,6 +46,16 @@
     color:grey
 } */
 @media(max-width:600px){
+    #bat{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    }
+
+    #bat a{
+        padding: 20px;
+    }
     .nav{
         display: none;
     }
