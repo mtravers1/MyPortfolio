@@ -7,6 +7,7 @@ import asd from './asd.png'
 import hair from './hair.png'
 import port from './portfolio.png'
 import qu from './quikinfluence.png'
+import mis from './mis.png'
 import Footer from './components/footer'
 import clothes from './clothingstore.png'
 const Projects = ()=>{
@@ -43,9 +44,9 @@ link:"https://www.alliancesoftwaredevelopment.com/",
 git:"", 
 startdate:5.2022, 
 enddate:8.2022},
-{id:5, name:"Clothing Store", 
+{id:5, name:"Eccomerce Websites", 
 tools:"Spring Boot, MongoDB, Jquery, Ajax", 
-description:"Build a web application that would allow users to upload items to buy, sale and trade. This was built with Spring Boot using MVC architecture and connected to mongodb. Created the front end using Jquery and was able to use Ajax to get and post to API ", 
+description:"Build a web application that would allow users to upload items to a variety of goods. This was built with Spring Boot using MVC architecture and connected to mongodb. Created the front end using Jquery and was able to use Ajax to get and post to API ", 
 link:"https://main.d2s4llms9r5rln.amplifyapp.com/", 
 image:clothes,
 git:"https://github.com/mtravers1/CLothingStore, https://github.com/mtravers1/ClothingStoreBackend-", 
@@ -60,6 +61,14 @@ link:"https://main.dgivi4wqcgsmp.amplifyapp.com/",
 git:"https://github.com/mtravers1/Hair", 
  
 enddate:'in progress'},
+{id:4, name:"Move in Silence Clothing brand Application", 
+  tools:"ReactJs HTML, CSS, Javascript, Node Js, Express, Postgres", 
+  image:mis,
+  description:"Develop a web application for a Clothing brand using React and vanilla CSS for the front end, Node ExpressJs to build the server, and connect to the Postgres Database", 
+  link:"https://main.d2ksyjsu87ryhl.amplifyapp.com/", 
+  git:"https://github.com/mtravers1/MIS", 
+   
+  enddate:'in progress'},
 {id:4, name:"Portfolio Website", 
 tools:"ReactJs HTML, CSS, Javascript", 
 image:port,
