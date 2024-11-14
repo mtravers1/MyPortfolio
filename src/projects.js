@@ -4,7 +4,7 @@ import quik from './images/logos/quikin.png'
 import './projects.css'
 import igb from './i-gotcha-bailbonds.png'
 import asd from './asd.png'
-import hair from './hair.png'
+import hair from './hair1.png'
 import port from './portfolio.png'
 import qu from './quikinfluence.png'
 import mis from './mis.png'
@@ -44,14 +44,6 @@ link:"https://www.alliancesoftwaredevelopment.com/",
 git:"", 
 startdate:5.2022, 
 enddate:8.2022},
-{id:5, name:"Eccomerce Websites", 
-tools:"Spring Boot, MongoDB, Jquery, Ajax", 
-description:"Build a web application that would allow users to upload items to a variety of goods. This was built with Spring Boot using MVC architecture and connected to mongodb. Created the front end using Jquery and was able to use Ajax to get and post to API ", 
-link:"https://main.d2s4llms9r5rln.amplifyapp.com/", 
-image:clothes,
-git:"https://github.com/mtravers1/CLothingStore, https://github.com/mtravers1/ClothingStoreBackend-", 
-
-enddate:'in progress'},
 
 {id:4, name:"Clients business Website for a hair website        ", 
 tools:"React, TypeScript, Node, Express, Oracle", 
