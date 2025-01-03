@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=UnifrakturCook:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+#container2{
+    color: white;
+
+    margin: 30px; 
+
+
+}
+
+#backgroundbutton{
+    background-color: #1d252c;
+}
+
+
+
+#boxx{
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#box2 div{
+    background-color: #1d252c;
+    margin-top:30px;
+    width:100%;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+
+
+#stars{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+#box{
+    background-color: #1d252c;
+    width:20%;
+}
+#box img{
+    width: 210px;
+    height: 140px;
+}
+#box p{
+    margin:0px;
+    display: flex;
+}
+
+
+
+
+
+#background-slider {
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+  }
+  #container1{
+    
+    background-color: #1d252c;
+    
+}
+
+#container1 img{
+    height: 50px;
+}
+
+#container3{
+
+    height: 300px;
+   
+    background-color: #1d252c;
+    margin-top:30px;
+  
+}
+
+#container3 button{
+   
+    background-color:black;
+ 
+
+}
+
+
+
+
+#star{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#stars{
+    color: black;
+    padding-bottom: 20px;
+}
+
+#reviewbutton{
+    height: 37px;
+    padding: 20px;
+   
+    background-color: #1d252c;
+    margin-top: 20px;
+}
+#review div{
+
+   
+color:black;
+/* border-top: 2px solid; */
+border-bottom:2px solid;
+width: 50%; 
+
+height: 200px;
+
+}
+
+
+#container4 div{
+    background-color: #1d252c;
+    margin-top:20px;
+    margin-bottom:20px;
+    /* border-radius: 10px; */
+    padding:10px;
+    color: white;
+    height: 200px;
+}
+
+#room{
+    background-image: url("/images/landing-page-images/crosstrek11.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#power{
+    background-image: url("/images//landing-page-images/crosstrek10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#exterior{
+    background-image: url("/images/landing-page-images/crosstrek6.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#interior{
+    background-image: url("/images//landing-page-images/crosstrek5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#safe{
+    background-size: cover;
+    background-position: center;
+    background-image: url("/images//landing-page-images/crosstrek8.jpg");
+
+}
+
+#container3 p a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+   }
+
+
+@media(max-width:600px){
+    h1{
+        font-size:84px;
+    }
+
+    #boxx img{
+        width: 250px;
+    }
+
+   #logo{
+    display: none;
+   }
+   #top{
+    font-size: small;
+   }
+
+
+   #text{
+    font-size: 36px;
+   }
+
+   #backgroundbutton{
+    font-size: 24px;
+   }
+   #boxx{
+    /* flex-direction:column; */
+
+   }
+   #boxx div{
+    width: 100%;
+    margin:0px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+   }
+
+   #container4 div{
+    width: 350px;
+    height: 450px;
+   }
+
+   #review div{
+    width: 100%;
+    align-items: center;
+    display: flex
+;
+    flex-direction: column;
+   }
+
+   #stars{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #stars div{
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
+    flex-direction: column;
+    margin:20px;
+    padding-bottom:0px
+   }
+
+   /* #morereviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } */
+   /* #morereviews div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px
+   } */
+
+   #s{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #black{
+    color: white;
+   }
+   #container3 p{
+    text-align: left;
+   }
+
+}
