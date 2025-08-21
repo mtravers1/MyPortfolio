@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.background{
+  background-image: url("./background.jpg");
+  background-size: fill;
+
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+#me{
+  width:400px
+}
+#foot{
+  background-image: linear-gradient(black, black, black, grey);
+}
+#image{
+  border-radius: 20px;
+}
+.project{
+  margin:"20px";
+  width:"25%"
+}
+.pics img{
+  width: 5%;
+}
+
+.projects div{
+  width: 25%
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#welcome{
+  font-size: 50px;
+  font-weight:bold
+}
+
+#take{
+  font-weight: bold;
+}
+.a{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+  font-size: 25px;
+}
+@media(max-width:600px){
+  .button{
+    width: 40%;
+  }
+  .a{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 80%;
+    font-size: 25px;
+  }
+  .project {
+    width: 100%;
+  }
+  .pics div img{
+    width:10%;
+  }
+  #me{
+    width:300px
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    
+  }
+
+  #welcome{
+    font-size: 40px;
+    font-weight:bold
+  }
+
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 320px;
+}
+
+#welcome {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: red;
+}
+
+#take {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.button-space {
+  margin-top: 1rem;
+}
+
+.about-button {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.about-button:hover {
+  background: lightcoral;
+}
+
+/* Image */
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}

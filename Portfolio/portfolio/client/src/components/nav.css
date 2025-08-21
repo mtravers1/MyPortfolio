@@ -1,0 +1,75 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: 900px;
+    font-size: 20px;
+ 
+}
+.mobilenav{
+    display: none;
+}
+.nav a:hover{
+    color:grey;
+
+}
+#menu{
+    width:50%
+
+}
+
+#resu{
+    background:black;
+}
+
+#resu a{
+    padding: 10px;
+    background:none;
+}
+
+#menu button{
+    text-decoration: none;
+    font-weight: 900px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+/* .nav ul{
+    color:grey
+} */
+@media(max-width:600px){
+    #bat{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    }
+
+    #bat a{
+        padding: 20px;
+    }
+    .nav{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+    }
+    .mnav a{
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom:20px;
+        font-size: 24px
+    }
+
+
+}

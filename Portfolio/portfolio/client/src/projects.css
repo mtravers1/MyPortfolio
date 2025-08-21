@@ -1,0 +1,35 @@
+.projects{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+img{
+    width: 100%;
+}
+
+@media(max-width:800px){
+    .projects{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+        
+    }
+
+    .project img{
+        width:80%
+    }
+
+    .projects div{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+
+    img{
+        margin:10px
+    }
+}

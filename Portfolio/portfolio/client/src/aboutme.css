@@ -1,0 +1,124 @@
+/* @media(max-width:600px){
+    .about{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic{
+        display: flex;
+        justify-content: center;
+        
+    }
+    #button{
+        border-radius:6px;
+        width:50%;
+        background-color: red;
+        align-items: center;
+        font-weight:bold;
+        height:30px
+    }
+    .about{
+        display:"flex"; 
+        justify-content:"center";
+        padding-top:'80px';
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    .bout{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+}
+
+#button{
+    border-radius:6px;
+    background-color: red;
+    align-items: center;
+    font-weight:bold;
+    height:30px
+}
+#buttonspace{
+    display:flex;
+    justify-content: center;
+}
+.about{
+    display:"flex"; 
+    justify-content:"center";
+
+}
+#welcome{
+    color:red
+}
+
+#to{
+    color:white;
+}
+
+#take{
+    color:white;
+}
+
+.bout{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+} */
+
+/* .aboutme-container {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.aboutme-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.aboutme-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.aboutme-text {
+  flex: 2;
+  min-width: 300px;
+}
+
+.aboutme-section {
+  margin-bottom: 2rem;
+}
+
+.aboutme-section h2 {
+  font-size: 1.5rem;
+  color: red;
+  margin-bottom: 0.5rem;
+}
+
+.aboutme-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.aboutme-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutme-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}

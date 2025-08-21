@@ -1,0 +1,79 @@
+/* #ts{
+
+}
+
+#resume{
+    background-color: white;
+    color:black;
+    margin:40px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#r{
+    background-color: thistle;
+}
+
+@media(max-width:600px){
+  #resume{
+    margin:10px;
+
+  }
+  }
+ */
+.resume-container {
+  background-color: white;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume-header p a {
+  color: #0077b6;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.resume-header p a:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+}
+
+.resume-section h2 {
+  color: #023e8a;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+.job h3 {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: #0077b6;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
